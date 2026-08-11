@@ -681,178 +681,155 @@ footer{
 }
 
 
-@media (max-width:600px){
+@media screen and (max-width: 600px) {
 
-    header{
-        padding:18px 5%;
+    body {
+        width: 100%;
+        overflow-x: hidden;
     }
 
-    .logo{
-        font-size:1.7rem;
+    /* ALL SECTIONS */
+    section {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
     }
 
-    /* CENTER ALL SECTION CONTENT */
-    section{
-        width:100%;
-        padding:100px 20px;
-        text-align:center;
-    }
-
-    .heading{
-        font-size:2.2rem;
-        text-align:center;
-        width:100%;
-    }
-
-    /* CENTER SUB HEADINGS */
-    .sub-heading{
-        font-size:1.5rem;
-        text-align:center;
-        width:100%;
-        margin:50px 0 35px;
+    /* ALL SECTION TITLES */
+    .heading,
+    .sub-heading {
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* HOME */
-    .home{
-        width:100%;
-        flex-direction:column-reverse;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        gap:40px;
+    .home {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
-    .home-content{
-        width:100%;
-        flex:none;
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        text-align:center;
+    .home-content {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
-    .home-content h1{
-        font-size:34px;
-        text-align:center;
-    }
-
-    .home-content h3{
-        font-size:20px;
-        text-align:center;
-    }
-
-    .home-content p{
-        font-size:15px;
-        text-align:center;
-    }
-
-    .home-img{
-        width:100%;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-
-    .image-border{
-        width:280px;
-        height:280px;
+    .home-img {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /* SOCIAL ICONS */
-    .social-icons{
-        width:100%;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        flex-wrap:wrap;
-        gap:10px;
+    .social-icons {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
-    .social-icons a{
-        margin-right:0;
+    .social-icons a {
+        margin-right: 7px;
+        margin-left: 7px;
     }
 
-    /* BUTTON */
-    .btn{
-        padding:12px 28px;
-        align-self:center;
+    /* ABOUT */
+    .about-container {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
-    /* ABOUT ME */
-    .about-container{
-        width:100%;
-        grid-template-columns:1fr;
-        gap:25px;
-        justify-items:center;
+    .about-text {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
     }
 
-    .about-text{
-        width:100%;
-        min-height:300px;
-        padding:30px 25px;
-        text-align:center;
+    /* PROJECTS / ACHIEVEMENTS */
+    .projects,
+    .achievements {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 
-    .about-text h3{
-        font-size:23px;
-        text-align:center;
+    /* CARD CONTAINER */
+    .card-container {
+        width: 100%;
+        margin: 30px auto 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
     }
 
-    .about-text p{
-        font-size:16px;
-        text-align:center;
+    /* CARDS */
+    .card {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
-    .about-text ul{
-        font-size:16px;
-        text-align:center;
-        padding-left:0;
-        list-style-position:inside;
+    .card h3,
+    .card p {
+        width: 100%;
+        text-align: center;
     }
 
-    /* CARDS - CENTER ON PHONE */
-    .card-container{
-        width:100%;
-        display:grid;
-        grid-template-columns:1fr;
-        justify-items:center;
-        align-items:center;
-        gap:25px;
-    }
-
-    .card{
-        width:100%;
-        max-width:600px;
-        padding:25px;
-        margin:0 auto;
-        text-align:center;
-        align-items:center;
-    }
-
-    .card img{
-        width:180px;
-        height:180px;
+    .card .btn {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* CONTACT */
-    .contact-info{
-        width:100%;
-        align-items:center;
+    .contact-info {
+        width: 100%;
+        max-width: 700px;
+        margin: 40px auto 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .contact-box{
-        width:100%;
-        padding:16px 20px;
-        justify-content:center;
-        text-align:center;
+    .contact-box {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
-    .contact-box span{
-        font-size:16px;
-        text-align:center;
-    }
-
-    footer{
-        text-align:center;
+    /* FOOTER */
+    footer {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 }
