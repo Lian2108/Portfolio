@@ -12,3 +12,5 @@ The website I created uses a galaxy-inspired design with glowing effects, animat
 + JavaScript - used to add functionality to the mobile navigation menu and active navigation links.
 + Font Awesome - used for icons.
 + Google Fonts - used for Michroma and Poppins fonts.
+
+
