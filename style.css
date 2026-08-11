@@ -553,7 +553,7 @@ section{
 
     gap:18px;
 
-    padding:20px 25px;
+    padding:px 25px;
 
     background:rgba(255,255,255,.05);
 
@@ -734,7 +734,7 @@ footer{
     }
 
     .contact-box span{
-        font-size:16px;
+        font-size:14px;
     }
 
     /* ABOUT ME */
