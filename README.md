@@ -16,6 +16,13 @@ The website I created uses a galaxy-inspired design with glowing effects, animat
 + Font Awesome - used for icons.
 + Google Fonts - used for Michroma and Poppins fonts.
 
+# Website Selection 
++ Home - introduces me, my portfolio, social links, email, profile image, and a link to the About Me section 
++ About Me - includes my background such as education, and personal and technology-related interests.
++ Achievements - showcases my TESDA certifictes, Coursera certificates, and school awards.
++ Projects - fetures my course activities and other projects, including web development.
++ Contact - provides my email, phone number, LinkedIn, and GitHub for communication.
+
 # Design Features 
 + Galaxy-inspired background
 + Animated stars and glowing effects
@@ -24,18 +31,18 @@ The website I created uses a galaxy-inspired design with glowing effects, animat
 + Active navigation skills
 
 # Responsive Design
-  The website uses media queries to adjust the layout according to the screen size.
+The website uses media queries to adjust the layout according to the screen size.
 
-  + Desktop - the navigation menu is displayed normally, and the content uses multiple columns where appropriate.
-  + Tablet - the hamburger menu becomes available, and some layouts are changed to fit smaller screens.
-  + Mobile - the navigation changes into a mobile menu, while cards and content are aranged into a single-column layout for easier viewing.
++ Desktop - the navigation menu is displayed normally, and the content uses multiple columns where appropriate.
++ Tablet - the hamburger menu becomes available, and some layouts are changed to fit smaller screens.
++ Mobile - the navigation changes into a mobile menu, while cards and content are aranged into a single-column layout for easier viewing.
 
 # JavaScript Function
-  JavaScript is mainly used for navigation menu, which allows user to:
-  + Open and close the mobile navigation menu.
-  + Change the hamburger icon into an X icon.
-  + Automatically close the navigation menu when scrolling.
-  + Highlight the navigation link that was selected.
+JavaScript is mainly used for navigation menu, which allows user to:
++ Open and close the mobile navigation menu.
++ Change the hamburger icon into an X icon.
++ Automatically close the navigation menu when scrolling.
++ Highlight the navigation link that was selected.
 
 # How to Run 
 1. Download or clone the project
@@ -43,5 +50,9 @@ The website I created uses a galaxy-inspired design with glowing effects, animat
 3. Make sure index.html, style.css, script.js, and the image folder are in the correct locations.
 4. Open index.html in a web browser.
 5. For easier development, you can use the Live Server extensions in Visual Studio Code.
+
+# Author 
+ Lian T. Dumangas 
+ Bachelor of Science in Information Technology Student 
 
     
