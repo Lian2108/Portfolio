@@ -12,6 +12,7 @@ menuIcon.onclick = () => {
 window.onscroll = () => {
     menuIcon.classList.remove("fa-xmark");
     navbar.classList.remove("active");
+    
 };
 
 //Active Navigation Link

@@ -248,8 +248,9 @@ nav a.active{
 }
 
 .image-border{
-    width:520px;
-    height:520px;
+    width:min(520px,85vw);
+    aspect-ratio:1;
+    height:auto;
 
     padding:8px;
 
@@ -314,13 +315,12 @@ section{
 .about-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
 }
 
 .about-text {
     width: 100%;
-    min-height: 350px;
 
     background: rgba(255,255,255,.05);
     backdrop-filter: blur(12px);
@@ -328,7 +328,7 @@ section{
     border: 1px solid rgba(0,229,255,.2);
     border-radius: 20px;
 
-    padding: 40px;
+    padding: 30px;
 
     text-align: center;
 
@@ -553,7 +553,7 @@ section{
 
     gap:18px;
 
-    padding:px 25px;
+    padding:16px 25px;
 
     background:rgba(255,255,255,.05);
 
