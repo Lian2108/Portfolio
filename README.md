@@ -7,4 +7,4 @@ This porfolio website reflects my learning, personal growth, and interest in Inf
 The website I created uses a galaxy-inspired design with glowing effects, animations, cards, and responsive layout for different screen sizes.
 
 # Technologies Used
-+ ( # HTML5) -
++ \*\* HTML5 \*\* - 
