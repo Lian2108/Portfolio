@@ -7,4 +7,8 @@ This porfolio website reflects my learning, personal growth, and interest in Inf
 The website I created uses a galaxy-inspired design with glowing effects, animations, cards, and responsive layout for different screen sizes.
 
 # Technologies Used
-+ \*\* HTML5 \*\* - 
++  HTML5  - used to create the structure and content of the website.
++ CSS3 - used for the design, layout, animations, colors, and responsiive features.
++ JavaScript - used to add functionality to the mobile navigation menu and active navigation links.
++ Font Awesome - used for icons.
++ Google Fonts - used for Michroma and Poppins fonts.
